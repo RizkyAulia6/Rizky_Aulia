@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <style type="text/css">
+        .wrapper{
+            width: 650px;
+            margin: 0 auto;
+        }
+        .page-header h2{
+            margin-top: 0;
+        }
+        table tr td:last-child a{
+            margin-right: 15px;
+        }
+    </style>
+    <title>Create</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-header clearfix">
+    
+        <div class="col-md-4">
+            <div class="card p-2">
+              <input type="text" id="idproduct" hidden >
+                 <div class="form-group">
+                    <input 
+                       class="form-control"
+                       type="text" 
+                       id="name"
+                       placeholder="Name">
+                 </div>
+                <div class="form-group">
+                    <input 
+                      class="form-control"
+                      type="number"
+                      id="price"
+                      step="50"
+                      min="0" 
+                      placeholder="Price">
+                </div>
+              
+                <div>
+                  <button id="btnform"
+                     class="btn btn-primary" >
+                    Add
+                 </button>
+                 <a href="index.html" class="btn btn-success pull-right">Back</a>
+                </div>
+                
+        
+             </div>
+        </div>
+</body>
+</html>

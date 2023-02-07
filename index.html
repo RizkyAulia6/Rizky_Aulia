@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <style type="text/css">
+        .wrapper{
+            width: 650px;
+            margin: 0 auto;
+        }
+        .page-header h2{
+            margin-top: 0;
+        }
+        table tr td:last-child a{
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+   <div class="wrapper">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="page-header clearfix">
+                      <h2 class="pull-left">Informasi Pegawai</h2>
+                      <a href="create.html" class="btn btn-success pull-right">Tambah Baru</a>
+                  </div>
+    <div class="col-md-6">
+      <table class='table table-bordered table-striped'>
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Price</th>
+                </tr>
+            </thead>
+            <tbody id="mylist">
+            <!-- info -->
+           </tbody>
+        </table>
+   </div> 
+   </div>
+</div>
+</body>
+</html>
